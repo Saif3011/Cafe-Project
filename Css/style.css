@@ -1,0 +1,78 @@
+/* reset*/
+/*Wildcard*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* because padding and border affect width and height */
+  /* If I fix width=200px and height=200px ,it do not exceed these numbers and it act inside*/
+}
+
+/* ^general*/
+hmtl,
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+  /*Set the bottom margin for h1, h2, h3 element to 20 pixels*/
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+
+}
+.active{
+  background-color: #444;
+}
+
+
+
+
+
+/*header*/
+.header {
+  background-color: #333;
+  overflow: auto;/* overflow هي خاصية في CSS تحدد ما يحدث عندما يتجاوز محتوى العنصر حجمه. تستخدم هذه الخاصية للتحكم في طريقة عرض العنصر الزائد من حيث العرض والارتفاع والتمرير الداخلي.*/
+  line-height: 1.7em; /*All header element inline*/
+
+}
+
+.header nav h1 {
+  float: left;
+  /*h1 stay on the left*/
+  padding: 20px;
+  margin-bottom: 0px; /*Override h1===> without margin button*/
+}
+.header nav h1 a {
+color: white;
+}
+.header nav ul {
+  float: right;
+  /*ul ===> right */
+  list-style: none;
+  /*disable list style*/
+
+}
+
+.header nav ul li {
+  float: left;/*to make li in the left inline*/
+}
+.header nav ul li a {
+color: white;
+padding: 20px;
+display: block; /*convert inline element to block element*/
+}
+.header nav ul li a:hover {
+background-color: #444;
+  }
+  
+/*anchor is inline element, we can transform to block element to control them*/
+/* inline element do not consider width and height */
+
+/*@New words :*/
+/*Wildcard =applicable on all the project*/
