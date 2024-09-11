@@ -76,3 +76,86 @@ background-color: #444;
 
 /*@New words :*/
 /*Wildcard =applicable on all the project*/
+
+/*first section*/
+.greeting{
+  text-align: center;
+  padding-top: 200px;
+  color: rgb(63, 199, 25);
+}
+.separator{
+  background: black;
+  margin-left: 290px ;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 10px;
+}
+.caf_descrip{
+  color: rgb(119, 187, 18);
+}
+.my-content{
+  background: url(../images/restaurant-cafe.avif)  ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  
+}
+.btn-Where{
+  margin-top:10px;
+  margin-bottom: 10px;
+  color: black;
+  background-color: #07e249;
+  border-radius: 10px;
+  
+}
+.btn1{
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight:bolder ;;
+}
+/*Second section*/
+.mugImg , .clockImg{
+  margin-top: 100px;
+  width: 50px;
+  background-color: white;
+  border-radius: 100px;
+}
+.second{
+  text-align: center;
+  display: flex;
+  background-color: rgba(122, 120, 120, 0.089);
+}
+/*third section*/
+.pic_coffe{
+  margin-top: 100px;
+  background-image: url(/images/cofee-meeting.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  
+}
+.section4{
+  margin-top: 50px;
+  text-align: center;
+}
+.btn_book{
+  display: inline-block;
+  margin-top: 40px;
+  padding: 15px 25px;
+  background-color:  #222;
+  color: white;
+  border: 4px ;
+  border-radius: 30%;
+  font-weight: 600;
+  font-size: 20px;
+}
+footer{
+  background: #222;
+    color: white;
+    padding: 30px 0px 30px 0px;
+    margin-top: 80px;
+    text-align: center;
+}
