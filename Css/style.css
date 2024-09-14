@@ -18,6 +18,7 @@ h1,
 h2,
 h3 {
   margin-bottom: 20px;
+  
   /*Set the bottom margin for h1, h2, h3 element to 20 pixels*/
 }
 
@@ -28,6 +29,17 @@ a {
 }
 .active{
   background-color: #444;
+}
+.btn{
+  display: inline-block;
+  margin-top: 40px;
+  padding: 15px 25px;
+  background-color:  #222;
+  color: white;
+  border: 4px ;
+  border-radius: 30%;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 
@@ -81,17 +93,30 @@ background-color: #444;
 .greeting{
   text-align: center;
   padding-top: 200px;
-  color: rgb(63, 199, 25);
+  /* color: rgb(63, 199, 25); */
+  color: white;
 }
 .separator{
   background: black;
-  margin-left: 290px ;
+  margin: auto;
   margin-bottom: 30px;
   width: 100px;
   height: 10px;
 }
 .caf_descrip{
-  color: rgb(119, 187, 18);
+  /* color: rgb(119, 187, 18); */
+  /* font-family: "Sacramento", cursive; */
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  
+}
+.caf_descrip p{
+color: white;
+  margin: auto 100px auto 100px;
+  width:900px;
+  
+  
 }
 .my-content{
   background: url(../images/restaurant-cafe.avif)  ;
@@ -99,22 +124,33 @@ background-color: #444;
   background-size: cover;
   height: 700px;
   text-align: center;
+  font-size: 25px;
+  letter-spacing: 0.2px;
   
 }
 .btn-Where{
-  margin-top:10px;
+  margin-top:20px;
   margin-bottom: 10px;
+  padding: 15px 25px;
   color: black;
-  background-color: #07e249;
+  
   border-radius: 10px;
   
 }
+.btn0:hover{
+  background-color: darkslategrey;
+}
 .btn1{
+  
   display: inline-block;
-  margin: 20px;
-  padding: 10px;
-  font-size: 15px;
-  font-weight:bolder ;;
+  margin-top: 40px;
+  padding: 15px 25px;
+  background-color:  #222;
+  color: white;
+  border: 4px ;
+  border-radius: 30%;
+  font-weight: 600;
+  font-size: 20px;
 }
 /*Second section*/
 .mugImg , .clockImg{
@@ -152,10 +188,83 @@ background-color: #444;
   font-weight: 600;
   font-size: 20px;
 }
+.btn2:hover{
+background-color: darkslategrey;
+}
 footer{
   background: #222;
     color: white;
     padding: 30px 0px 30px 0px;
     margin-top: 80px;
     text-align: center;
+}
+/*Find us us page*/
+.findUs{
+  overflow: auto;
+  padding:150px 100px ;
+}
+.where_img{
+float:left ;
+width: 50%;
+border: 1px solid #ddd;
+}
+.where_text{
+  float: right;
+  width: 45%;
+  
+}
+.container{
+  display: block;
+  margin:200px auto 200px;
+  max-width: 1000px;
+
+}
+.chip_org{
+  background-color: orangered;
+}
+.chip{
+  display: inline-block;
+  width: 30px;
+  color: white;
+  border-radius: 100px;
+  text-align: center;
+}
+.chip_blue{
+  background-color: blue;
+}
+.underline{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  
+}
+.contact{
+  padding: 180px 0px 100px 0px;
+  min-height: 100vh;
+}
+.contact-form-container{
+  max-width: 600px;
+  margin: auto;
+}
+.fo-22{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contact-form-container form label{
+  display: block;
+  font-weight: bold;
+}
+.contact-form-container form input ,textarea{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  
+}
+.btn-submit{
+  display: block;
+}
+.intrj{
+  color: red;
+  width: 100px;
+  
 }
