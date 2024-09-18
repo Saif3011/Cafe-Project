@@ -151,6 +151,7 @@ color: white;
   border-radius: 30%;
   font-weight: 600;
   font-size: 20px;
+  outline: none;
 }
 /*Second section*/
 .mugImg , .clockImg{
@@ -222,6 +223,9 @@ border: 1px solid #ddd;
 .chip_org{
   background-color: orangered;
 }
+.chip_blue{
+  background-color: blue;
+}
 .chip{
   display: inline-block;
   width: 30px;
@@ -229,9 +233,7 @@ border: 1px solid #ddd;
   border-radius: 100px;
   text-align: center;
 }
-.chip_blue{
-  background-color: blue;
-}
+
 .underline{
   padding-bottom: 10px;
   border-bottom: 1px solid #ddd;
